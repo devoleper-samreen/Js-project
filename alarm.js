@@ -1,21 +1,22 @@
 //take input time
-let alarmTime = "18:15";
+let alarmTime = "10:34";
+let isValidTime = false;
 
 //validate input
-if (!/^\d{2}:\d{2}$/.test(alarmTime)) {
+if (/^\d{2}:\d{2}$/.test(alarmTime)) {
     let [hours, minutes] = alarmTime.split(":")
 
     if (Number(hours) >= 0 && Number(hours) <= 23 && Number(minutes) >= 0 && Number(minutes) <= 59) {
-        console.log("Time format is correct")
+        //console.log("Time format is correct");
+        isValidTime = true;
     }
     else {
-        console.log("please insert hours between 0 to 23 and minutes between 0 to 59")
+        console.log("please insert hours between 0 to 23 and minutes between 0 to 59 OR currect time formet like 12:30");
     }
 }
-else {
-    // console.log("time format is not correct, kindly use eg: 12:30")
 
-    //compare current time with alarm time every second
+//compare current time with alarm time every second
+if (isValidTime) {
     let alarmCheck = setInterval(() => {
 
         //get current time
@@ -31,6 +32,7 @@ else {
     }, 1000);
 
 }
+
 
 
 
