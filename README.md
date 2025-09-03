@@ -1,4 +1,4 @@
-# Number Guessing Game (Logic-Only)
+# Number Guessing Game
 
 Welcome to the **Number Guessing Game (Logic-Only)**! 🎉
 
