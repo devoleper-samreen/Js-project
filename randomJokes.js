@@ -11,15 +11,7 @@ const jokes = [
     "How does a penguin build its house? Igloos it together!",
     "Why did the math book look sad? Because it had too many problems.",
     "What do you call a boomerang that doesnt come back? A stick.",
-    "Why do bees have sticky hair? Because they use honeycombs.",
-    "Why was the computer cold? It left its Windows open!",
-    "Why are ghosts bad liars? Because they are too transparent.",
-    "Why dont programmers like nature? It has too many bugs.",
-    "What do you call a belt made out of watches? A waist of time.",
-    "Why couldnt the astronaut book a hotel on the moon? It was full.",
-    "Why did the golfer bring an extra pair of pants? In case he got a hole in one.",
-    "Why cant your nose be 12 inches long? Because then it would be a foot.",
-    "Why did the stadium get hot after the game? All the fans left!"
+    "Why do bees have sticky hair? Because they use honeycombs."
 ];
 
 //generate random jokes
